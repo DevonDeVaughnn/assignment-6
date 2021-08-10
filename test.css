@@ -1,0 +1,15 @@
+html {
+  background-color: #4c2a85;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #320e3b;
+  width: 100%;
+}
+#page {
+  color: #ddfbd2;
+  margin: 0 auto;
+  width: 100%;
+}
