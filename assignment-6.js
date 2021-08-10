@@ -36,13 +36,14 @@ about.style.textAlign = "center";
 
 //Adding bottom paragraph and setting new attributes
 let text = document.getElementsByTagName("body");
+text[0].setAttribute("id", "para");
 let main = document.getElementById("para");
 let p = document.createElement("p");
-text[0].setAttribute("id", "para");
-main.appendChild(p);
 
+main.appendChild(p);
 p.textContent = "Nobody does it like Assignment 6 Inc.";
 p.style.textAlign = "center";
+p.style.color = "#DDFBD2";
 
 //replace text inside list
 let one = document.getElementById("one");
